@@ -27,6 +27,7 @@ h1 {
     font-size: 100px;
     text-align: center;
     color: rgb(247, 244, 59);
+    background-color: rgba(48, 130, 207, 0.48);
 }
 
 button {
