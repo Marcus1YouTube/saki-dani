@@ -23,6 +23,12 @@ h1 {
     color: white;
 }
 
+.welcome-text {
+    font-size: 100px;
+    text-align: center;
+    color: rgb(247, 244, 59);
+}
+
 button {
     font-size: 20px;
     border: none;
