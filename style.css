@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+:root {
+    --background-color: rgb(79, 79, 79)
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Redressed;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--background-color);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+button {
+    font-size: 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+button:active {
+    background-color: rgb(255, 0, 0);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.name-container {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.name-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-items ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-items ul {
+    list-style: none;
+}
+
+.navbar-items ul a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+    transition: 200ms cubic-bezier(.17,.67,.59,1.35);
+}
+
+.navbar-items ul a:hover {
+    color: white;
+    background-color: black;
+}
+
+@media (max-width: 700px) {
+    body {
+        background-image: none;
+    }
+}
