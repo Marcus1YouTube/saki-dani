@@ -87,4 +87,8 @@ button:active {
     body {
         background-image: none;
     }
+
+    .welcome-text {
+        font-size: 63px;
+    }
 }
