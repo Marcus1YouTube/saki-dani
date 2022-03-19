@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 :root {
     --background-color: rgb(79, 79, 79)
@@ -6,13 +6,12 @@
 
 * {
     box-sizing: border-box;
-    font-family: Redressed, Roboto;
+    font-family: Oswald;
 }
 
 body {
     margin: 0;
     padding: 0;
-    background-image: url("assets/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--background-color);
@@ -21,6 +20,11 @@ body {
 h1 {
     text-align: center;
     color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
 }
 
 .welcome-text {
@@ -107,7 +111,7 @@ button.bigButton:hover::after {
 
 @media (max-width: 700px) {
     body {
-        background-image: none;
+
     }
 
     .welcome-text {
